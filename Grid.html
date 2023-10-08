@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome CDNjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- materializeCSS Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Grid</title>
+</head>
+<body>
+
+        <div class="row">
+            <div class="col s12 black">
+                <h1 class="center white-text" style="font-weight: 500;">Grid</h1>
+            </div>
+        </div>
+
+<!-- 1st Column -->
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m9">
+                    <p>
+                        We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.
+                    </p>
+
+<!-- Container -->
+                    <h3 class="red-text text-lighten-2">Container</h3>
+                    <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p>
+
+                    <h3>Demo</h3>
+                    <p>Try the button below to see what the page looks like without containers.</p>
+
+                    <img src="images/ss1.png" class="responsive-img">
+                    
+                    <p>To add a container just put your content inside a &lt;div&gt; tag with a container class. Here's an example of how your page might be set up.</p>
+
+<!-- Introduction -->
+                    <br><br>
+                    <h3 class="red-text text-lighten-2">Introduction</h3>
+                    <p>Take a look at this section to quickly understand how the grid works!</p>
+                    <p class="flow-text">12 Columns</p>
+                    <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+
+                    <div class="row">
+                        <div class="col s1 card-panel center purple"> box 1</div>
+                        <div class="col s1 card-panel center purple">box 2</div>
+                        <div class="col s1 card-panel center purple">box 3</div>
+                        <div class="col s1 card-panel center purple">box 4</div>
+                        <div class="col s1 card-panel center purple">box 5</div>
+                        <div class="col s1 card-panel center purple">box 6</div>
+                        <div class="col s1 card-panel center purple">box 7</div>
+                        <div class="col s1 card-panel center purple">box 8</div>
+                        <div class="col s1 card-panel center purple">box 9</div>
+                        <div class="col s1 card-panel center purple">box 10</div>
+                        <div class="col s1 card-panel center purple">box 11</div>
+                        <div class="col s1 card-panel center purple">box 12</div>
+                    </div>
+
+                    <p>Note: For now, just know that the s1 stands for small-1 which in plain English means "1 column on small screens". </p>
+
+                    <p class="flow-text">
+                        Columns live inside Rows
+                    </p>
+                    <p>
+                        Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns
+                    </p>
+
+                    <div class="row">
+                        <div class="col s12 red center">This div is 12-columns wide on all screen sizes</div>
+                        <div class="col s6 green center">6-columns (one-half)</div>
+                        <div class="col s6 blue center">6-columns (one-half)</div>
+                    </div>
+<!-- Offsets -->
+                    <br><br>
+                    <h3 class="red-text text-lighten-2">Offsets</h3>
+                    <p>
+                        o offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.
+                    </p>
+
+                    <div class="row">
+                        <div class="col s12 red center"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+                        <div class="col s6 offset-s6 blue center"><span class="flow-text">6-columns (offset-by-6)</span></div>
+                    </div>
+<!-- Push and Pull -->
+                    <br><br>
+                    <h3 class="red-text text-lighten-2">Push and Pull</h3>
+
+                    <p>
+                        You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.
+                    </p>
+
+                    <div class="row">
+                        <div class="col s7 push-s5 center blue"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+                        <div class="col s5 pull-s7 center red"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+                    </div>
+
+<!-- Creating Layouts -->
+                </div>
+
+
+<!-- 2nd Column -->
+                <div class="col m3 hide-on-small-only">
+                    <div id="donate">
+                        <span>
+                            <span class="carbon-wrap">
+                                <img src="images/donate.png" alt="">
+                            <p style="font-size: small;">Help support us by turning off adblock. If you still prefer to keep adblock on for this page but still want to support us, feel free to donate. Any little bit helps.</p>
+                            </span>
+                        </span>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+    
+
+    
+
+
+
+
+
+
+    <!-- Font awesome jscript -->
+    <script src="https://kit.fontawesome.com/3d0d2000ae.js" crossorigin="anonymous"></script>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+</html>

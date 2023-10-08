@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6 { 
+    font-weight: 200;
+    
+    
+}
+
+.tagline {
+
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 2px 2px #000000;
+    
+}
+
+#title {
+    font-weight: 500;
+}
+
+.brand-logo {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+.grid-sample {
+    background-image: url('images/qr-bg.jpg');
+    
+    background-position: center center;
+    max-width: 100%;
+    height: 390px;
+}
+
+.qr-tagline {
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: 2px 2px #000000;
+}
+
+.qr-line {
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: 2px 2px #000000;
+}
+
+#player {
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(46, 0, 0), rgb(0, 0, 0));
+}
+
+.modal {
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(119, 119, 119), rgb(73, 73, 73));
+}
+
+#footer {
+    background-color: rgb(70, 70, 70);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15px;
+}
+
+#donate {
+    max-width: 130px;
+}
+
+.carbon-wrap {
+    height: auto;
+}

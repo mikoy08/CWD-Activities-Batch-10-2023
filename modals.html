@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome CDNjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- materializeCSS Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+<body>
+    
+    <h1 class="red-text tex-lighten-2 center">Modals</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p>Use a modal for dialog boxes, confirmation messages, or other content that can be called up. In order for the modal to work you have to add the Modal ID to the link of the trigger. To add a close button, just add the class .modal-close to your button.</p>
+
+        <br><br><br>
+        <div class="container white-text" id="player">
+            <div class="row valign-wrapper">
+                <div class="col s4">
+                    <img src="images/Bandang_Lapis.jpg" class="responsive-img" alt="">
+                </div>
+                <div class="col s8">
+                    <h5>Playlist</h5>
+                    <h3 id="title">Bandang Lapis All Songs</h3>
+                    12,503 likes • 10 songs • 52 min 24sec
+                </div>
+            </div>
+
+            
+                <table class="highlight">
+                    <thead>
+                        <tr>
+                            <th># Title</th>
+                            <th>Album</th>
+                            <th>Date Added</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>
+                                1.<a href="#modal01" class="modal-trigger"> Kung San Ka Masaya</a>
+                            </td>
+                            <td>Kung San Ka Masaya</td>
+                            <td>12 Feb 2022</td>
+                            <td>4:32</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2.<a href="#modal02" class="modal-trigger"> Kabilang Buhay</a>
+                            </td>
+                            <td>Kabilang Buhay</td>
+                            <td>12 Feb 2022</td>
+                            <td>5:25</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3.<a href="#modal03" class="modal-trigger"> Pagsisisia</a></td>
+                            <td>Pagsisisi</td>
+                            <td>12 Feb 2022</td>
+                            <td>5:18</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4.<a href="#modal04" class="modal-trigger"> Nang Dumating ka</a></td>
+                            <td>Pagsisisi</td>
+                            <td>12 Feb 2022</td>
+                            <td>6:19</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5.<a href="#modal05" class="modal-trigger"> Sana'y Di Nalang</a></td>
+                            <td>Sana'y Di Nalang</td>
+                            <td>12 Feb 2022</td>
+                            <td>5:39</td>
+                        </tr>
+                    </tbody>
+                </table> 
+        </div>
+    </div>
+
+    <!-- Modals Structure -->
+        <div id="modal01" class="modal">
+            <div class="modal-content">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/13cIu3NhmHg73A8OGj7EKb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="modal-footer" id="footer">
+                <a href="#!" class="modal-close btn-flat white-text">Close</a>
+            </div>
+        </div>
+        <div id="modal02" class="modal">
+            <div class="modal-content">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0knRQzgvbUed6K74mX81hG?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="modal-footer" id="footer">
+                <a href="#!" class="modal-close btn-flat white-text">Close</a>
+            </div>
+        </div>
+        <div id="modal03" class="modal">
+            <div class="modal-content">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/69N8RY9ITmCNXmNSsFJP1j?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="modal-footer" id="footer">
+                <a href="#!" class="modal-close btn-flat white-text">Close</a>
+            </div>
+        </div>
+        <div id="modal04" class="modal">
+            <div class="modal-content">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4k2QXEOnL0epRAwFWJrqJZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="modal-footer" id="footer">
+                <a href="#!" class="modal-close btn-flat white-text">Close</a>
+            </div>
+        </div>
+        <div id="modal05" class="modal">
+            <div class="modal-content">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5X0rdNMk9xtQ5dNVMfZA6x?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="modal-footer" id="footer">
+                <a href="#!" class="modal-close btn-flat white-text">Close</a>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+    <!-- Font awesome jscript -->
+    <script src="https://kit.fontawesome.com/3d0d2000ae.js" crossorigin="anonymous"></script>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
+    <!-- Modal Init -->
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+        })
+    </script>
+
+
+</body>
+</html>
