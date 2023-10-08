@@ -35,7 +35,9 @@
                     </p>
 
 <!-- Container -->
+                <div id="container" class="section scrollspy">
                     <h3 class="red-text text-lighten-2">Container</h3>
+                </div>
                     <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p>
 
                     <h3>Demo</h3>
@@ -47,24 +49,26 @@
 
 <!-- Introduction -->
                     <br><br>
+                <div id="introduction" class="section scrollspy">
                     <h3 class="red-text text-lighten-2">Introduction</h3>
+                </div>
                     <p>Take a look at this section to quickly understand how the grid works!</p>
                     <p class="flow-text">12 Columns</p>
                     <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
 
                     <div class="row">
-                        <div class="col s1 card-panel center purple"> box 1</div>
-                        <div class="col s1 card-panel center purple">box 2</div>
-                        <div class="col s1 card-panel center purple">box 3</div>
-                        <div class="col s1 card-panel center purple">box 4</div>
-                        <div class="col s1 card-panel center purple">box 5</div>
-                        <div class="col s1 card-panel center purple">box 6</div>
-                        <div class="col s1 card-panel center purple">box 7</div>
-                        <div class="col s1 card-panel center purple">box 8</div>
-                        <div class="col s1 card-panel center purple">box 9</div>
-                        <div class="col s1 card-panel center purple">box 10</div>
-                        <div class="col s1 card-panel center purple">box 11</div>
-                        <div class="col s1 card-panel center purple">box 12</div>
+                        <div class="col s4 m1 card-panel center purple"> box 1</div>
+                        <div class="col s4 m1 card-panel center purple">box 2</div>
+                        <div class="col s4 m1 card-panel center purple">box 3</div>
+                        <div class="col s4 m1 card-panel center purple">box 4</div>
+                        <div class="col s4 m1 card-panel center purple">box 5</div>
+                        <div class="col s4 m1 card-panel center purple">box 6</div>
+                        <div class="col s4 m1 card-panel center purple">box 7</div>
+                        <div class="col s4 m1 card-panel center purple">box 8</div>
+                        <div class="col s4 m1 card-panel center purple">box 9</div>
+                        <div class="col s4 m1 card-panel center purple">box 10</div>
+                        <div class="col s4 m1 card-panel center purple">box 11</div>
+                        <div class="col s4 m1 card-panel center purple">box 12</div>
                     </div>
 
                     <p>Note: For now, just know that the s1 stands for small-1 which in plain English means "1 column on small screens". </p>
@@ -83,9 +87,11 @@
                     </div>
 <!-- Offsets -->
                     <br><br>
+                <div id="offsets" class="section scrollspy">
                     <h3 class="red-text text-lighten-2">Offsets</h3>
+                </div>
                     <p>
-                        o offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.
+                        To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.
                     </p>
 
                     <div class="row">
@@ -94,8 +100,10 @@
                     </div>
 <!-- Push and Pull -->
                     <br><br>
-                    <h3 class="red-text text-lighten-2">Push and Pull</h3>
 
+                <div id="push-pull" class="section scrollspy">
+                    <h3 class="red-text text-lighten-2">Push and Pull</h3>
+                </div>
                     <p>
                         You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.
                     </p>
@@ -106,11 +114,214 @@
                     </div>
 
 <!-- Creating Layouts -->
+                    <br><br>
+                <div id="creating" class="section scrollspy">
+                    <h3 class="red-text text-lighten-2">Creating Layouts</h3>
+                </div>
+                    <p>
+                        Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.
+                    </p>
+
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <p class="flow-text">
+                                Section
+                            </p>
+                            <p>
+                                The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.
+                            </p>
+                        </div>
+                        <div class="col s12 m6">
+                            <p class="flow-text">
+                                Divider
+                            </p>
+                            <p>
+                                Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="flow-text">
+                        Example Sections and Dividers
+                    </p>
+
+                    <div class="divider"></div>
+                    <div class="section">
+                        <h5>Section 1</h5>
+                        <p>Stuff</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                        <h5>Section 2</h5>
+                        <p>Stuff</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                        <h5>Section 3</h5>
+                        <p>Stuff</p>
+                    </div>
+
+                    <p class="flow-text">
+                        Example Promotion Table
+                    </p>
+                    <p>
+                        If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.
+                    </p>
+                    
+                    <div class="row">
+                        <div class="col s4">
+                            <div class="center promo">
+                                <i class="material-icons">directions_run</i>
+                            </div>
+                            <P class="promo-caption center">
+                                Speeds up development
+                            </P>
+                            <p class="center">
+                                We did most of the heavy lifting for you to provide a default stylings that incorporate our custom componen
+                            </p>
+                        </div>
+                        <div class="col s4">
+                            <div class="center promo">
+                                <i class="material-icons">face</i>
+                            </div>
+                            <P class="promo-caption center">
+                                User Experience Focused
+                            </P>
+                            <p class="center">
+                                By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.
+                            </p>
+                        </div>
+                        <div class="col s4">
+                            <div class="center promo">
+                                <i class="material-icons">fitness_center</i>
+                            </div>
+                            <P class="promo-caption center">
+                                Easy to work with
+                            </P>
+                            <p class="center">
+                                We have provided detailed documentation as well as specific code examples to help new users get started.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <p class="flow-text">
+                        Example Side Navigation Layout
+                    </p>
+                    <p>
+                        You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.
+                    </p>
+                    <div class="row">
+                        <div class="col s12 red" style="height: 50px;">
+                        </div>
+                        <div class="col s3 grey" style="height: 400px">  
+                        </div>
+                        <div class="col s9 teal" style="height: 400px">  
+                        </div>
+                    </div>
+
+<!-- Creating Responsive Layouts -->
+                    <br><br>
+                <div id="responsive" class="section scrollspy">
+                    <h3 class="red-text text-lighten-2">Creating Responsive Layouts</h3>
+                </div>
+                    <p>
+                        Above we showed you how to layout elements using our grid system. Now we'll show you how to design your layouts so that they look great on all screen sizes.
+                    </p>
+                    <p class="flow-text">
+                        Screen Sizes
+                    </p>
+
+                    <table class="highlight">
+                        <tr>
+                            <th></th>
+                            <th>
+                                Mobile Devices <= 600px
+                            </th>
+                            <th>
+                                Tablet Devices > 600px
+                            </th>
+                            <th>
+                                Desktop Devices > 992px
+                            </th>
+                            <th>
+                                Large Desktop Devices > 1200px
+                            </th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span style="font-weight: bold;">
+                                        Class Prefix</span>
+                                </td>
+                                <td>
+                                    .s
+                                </td>
+                                <td>
+                                    .m
+                                </td>
+                                <td>
+                                    .l
+                                </td>
+                                <td>
+                                    .xl
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span style="font-weight: bold;">
+                                        Container Width</span>
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td>
+                                    85%
+                                </td>
+                                <td>
+                                    70%
+                                </td>
+                                <td>
+                                    70%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span style="font-weight: bold;">
+                                        Number of Columns</span>
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+<!-- Adding Responsiveness -->
+                    <p class="flow-text">
+                        Adding Responsiveness
+                    </p>
+                    <p>
+                        In the previous examples, we only defined the size for small screens using "col s12". This is fine if we want a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying "col s12 m12 l12". But by explicitly defining the size we can make our website more responsive.
+                    </p>
+
+                    <div class="row center">
+                        <div class="grid-example col s12 blue"><span class="flow-text">I am always full-width (col s12)</span></div>
+                        <div class="grid-example col s12 m6 red"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+                    </div>
                 </div>
 
 
 <!-- 2nd Column -->
-                <div class="col m3 hide-on-small-only">
+                <div class="col m3 hide-on-small-only donate-side">
                     <div id="donate">
                         <span>
                             <span class="carbon-wrap">
@@ -119,10 +330,16 @@
                             </span>
                         </span>
                     </div>
-                    
-                    
+
+                    <ul class="section table-of-contents">
+                        <li><a href="#container">Container</a></li>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#offsets">Offsets</a></li>
+                        <li><a href="#push-pull">Push and Pull</a></li>
+                        <li><a href="#creating">Creating Layouts</a></li>
+                        <li><a href="#responsive">Creating Responsive Layouts</a></li>
+                    </ul>
                 </div>
-            </div>
         </div>
         
     
@@ -147,6 +364,8 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+
+            $('.scrollspy').scrollSpy();
         });
     </script>
 
